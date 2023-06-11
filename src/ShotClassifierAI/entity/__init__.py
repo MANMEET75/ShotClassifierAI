@@ -1,1 +1,2 @@
-from ShotClassifierAI.entity.config_entity import (DataIngestionConfig)
+from ShotClassifierAI.entity.config_entity import (DataIngestionConfig,
+                                                  PrepareBaseModelConfig)
