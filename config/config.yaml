@@ -2,6 +2,6 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/u/0/uc?id=1EI_KIGzI_MLGbLUFQTHw6VFygzxWWhDm&export=download
+  source_URL: https://github.com/MANMEET75/ShotClassifierAI/raw/main/data/Cricket.zip
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
