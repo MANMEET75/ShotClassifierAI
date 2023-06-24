@@ -18,17 +18,28 @@ class Shot:
         result = np.argmax(model.predict(test_image), axis=1)
         print(result)
 
-        if result[0] == "drive":
+        if result[0] == 0:
             prediction = 'drive'
-            return [{ "image" : prediction}]
-
-        if result[0] == "legglance-flick":
+            return [{"image": prediction}]
+        
+        elif result[0] == 1:
             prediction = 'legglance-flick'
-            return [{ "image" : prediction}]
-
-        if result[0] == "pullshot":
+            return [{"image": prediction}]
+        
+        elif result[0] == 2:
             prediction = 'pullshot'
-            return [{ "image" : prediction}]
-        else:
+            return [{"image": prediction}]
+        
+        elif result[0] == 3:
             prediction = 'sweep'
-            return [{ "image" : prediction}]
+            return [{"image": prediction}]
+        else:
+            prediction = 'Image is not relevant'
+            return [{"image": prediction}]
+
+        
+    
+
+    
+
+
