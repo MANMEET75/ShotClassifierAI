@@ -1,7 +1,7 @@
 import tensorflow as tf
 import time
 import os
-from cnnClassifier.entity import PrepareCallbacksConfig
+from ShotClassifierAI.entity import PrepareCallbacksConfig
 
 
 class PrepareCallback:

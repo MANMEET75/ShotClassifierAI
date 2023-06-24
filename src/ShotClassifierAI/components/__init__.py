@@ -1,2 +1,5 @@
 from ShotClassifierAI.components.data_ingestion import DataIngestion
 from ShotClassifierAI.components.prepare_base_model import PrepareBaseModel
+from ShotClassifierAI.components.prepare_callback import PrepareCallback
+from ShotClassifierAI.components.training import Training
+from ShotClassifierAI.components.evaluation import Evaluation
