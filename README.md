@@ -21,6 +21,7 @@ Next, I dedicated my attention to the logging module, enabling comprehensive tra
 Within the research environment, I conducted thorough experimentation using Jupyter Notebook. Initially, I focused on data ingestion, successfully reading the dataset from GitHub. Subsequently, I experimented with various base models, meticulously selecting the one that exhibited superior accuracy and performance metrics. Additionally, I conducted experiments pertaining to the preparation of callbacks, training procedures, and eventually transformed my code into a modular structure for enhanced organization and maintainability.
 
 I meticulously followed a structured workflow to transform my notebook code into modular code, ensuring its stability and compatibility in the production environment.
+## Development Environment
 ## Workflows
 
 1. Update config.yaml
@@ -69,8 +70,8 @@ open up you local host and port
 ```
 
 
-
-# AWS-CICD-Deployment-with-Github-Actions
+## Production Environment
+### AWS-CICD-Deployment-with-Github-Actions
 
 ## 1. Login to AWS console.
 
