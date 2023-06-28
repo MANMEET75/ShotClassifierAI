@@ -1,5 +1,33 @@
 # ShotClassifierAI
+I have created a sophisticated deep learning model named "ShotClassifierAI" to accurately predict different types of cricket shots such as sweep, drive, leg glance-flick, and pull shot. This model has been meticulously trained using VGG16 as a base model.To ensure smooth deployment, I have seamlessly integrated this model into a comprehensive end-to-end solution, making use of AWS ECR and an EC2 instance for efficient and effective deployment.
 
+I initiated the process by setting up a repository on GitHub. Subsequently, I acquired a comprehensive dataset from Kaggle encompassing four distinct types of cricket shots: sweep, pull shot, legglance-flick, and drive.
+<img src="">
+# Dataset URL:
+[Click here to download data](https://github.com/MANMEET75/ShotClassifierAI/raw/main/data/Cricket.zip)
+
+## Please utilize the following command for environment creation using anaconda:
+```bash
+conda create -n ShotClassifierAI python==3.8 -y
+```
+Activating the environment
+```bash
+conda activate ShotClassifierAI
+```
+Next, I meticulously constructed the comprehensive structure essential for implementing the end-to-end model. This involved crafting the necessary code segments within the "template.py" file, which forms the backbone of the entire system.
+
+I meticulously documented all the crucial packages in the requirements.txt file, ensuring the inclusion of all necessary dependencies. Additionally, I developed a setup.py file to store important metadata. Finally, I effortlessly installed the packages, guaranteeing a seamless integration within the environment.
+
+Installing the requirements
+```bash
+pip install -r requirements.txt
+```
+
+Next, I dedicated my attention to the logging module, enabling comprehensive tracking of the application's workflow. Subsequently, I focused on the development of the utils.py file, where I implemented reusable code snippets that can be conveniently utilized throughout the entire application.
+
+## Research Environment
+
+Within the research environment, I conducted thorough experimentation using Jupyter Notebook. Initially, I focused on data ingestion, successfully reading the dataset from GitHub. Subsequently, I experimented with various base models, meticulously selecting the one that exhibited superior accuracy and performance metrics. Additionally, I conducted experiments pertaining to the preparation of callbacks, training procedures, and eventually transformed my code into a modular structure for enhanced organization and maintainability.
 ## Workflows
 
 1. Update config.yaml
