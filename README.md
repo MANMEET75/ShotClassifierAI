@@ -46,20 +46,20 @@ git clone https://github.com/MANMEET75/ShotClassifierAI.git
 ```bash
 conda create -n ShotClassifierAI python==3.8 -y
 ```
-
+Activate the environment
 ```bash
 conda activate ShotClassifierAI
 ```
 
 
-### STEP 02- install the requirements
+### STEP 02- Install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
-
+### STEP 03- Run the application
 ```bash
-# Finally run the following command
+
 python app.py
 ```
 
