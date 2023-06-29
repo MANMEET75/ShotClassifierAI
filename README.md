@@ -6,7 +6,6 @@ I initiated the process by setting up a repository on GitHub. Subsequently, I ac
 # Dataset URL:
 [Click here to download data](https://github.com/MANMEET75/ShotClassifierAI/raw/main/data/Cricket.zip)
 
-## Please utilize the following command for environment creation using anaconda:
 
 Next, I meticulously constructed the comprehensive structure essential for implementing the end-to-end model. This involved crafting the necessary code segments within the "template.py" file, which forms the backbone of the entire system.
 
